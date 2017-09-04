@@ -91,6 +91,8 @@ nav ul li a:hover{
 }
 
 .small{
+	display: flex;
+	flex-direction: column;
 	position: relative;
 	top: 30px;
 	right: 30px;
@@ -99,12 +101,40 @@ nav ul li a:hover{
 	height: 1500px;
 }
 
+.large-bottom{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	border: 1px solid red;
+	height: 700px
+}
+
+.large-bottom-first{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	border: 1px solid green;
+	width: 300px;
+	height: 600px;
+}
+
+.large-bottom-second{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	border: 1px solid skyblue;
+	width: 300px;
+	height: 600px;
+}
+
 .div-text-one{
 	border: 1px solid black;
 }
 
 .div-text-two{
 	border: 1px solid black;
+	width: 300px;
+	height: 200px;
 }
 
 .div-header-two{
@@ -115,6 +145,8 @@ nav ul li a:hover{
 
 .div-text-three{
  	border: 1px solid black;
+ 	width: 300px;
+ 	height: 200px;
 }
 
 .div-header-four{
@@ -136,6 +168,8 @@ nav ul li a:hover{
 
 .div-text-six{
 	border: 1px solid black;
+ 	font-size: 16px;
+  	font-weight: bold;
 }
 
 p{
@@ -156,4 +190,35 @@ h1{
   	font-weight: bold;
   	font-size: 40px;
   	color: white;
+}
+
+#nav-bites{
+ 	background-color: whitesmoke;
+}
+
+#nav-bites p{
+	color: dimgray;
+	font-size: 12px;
+	position: relative;
+	left: 6px;
+	font-family: verdana;
+}
+
+.cat,
+.ideas,
+.youtube,
+.online,
+.illustration,
+.materials{
+	border-bottom: 1px solid black;
+}
+
+.div-text-six h2{
+	font-weight: bold;
+	font-size: 16px;
+	font-family: georgia;
+}
+
+.footer{
+	background-color: mediumaquamarine;
 }
